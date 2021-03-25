@@ -9,9 +9,9 @@ import org.apache.log4j.LoggerRepositoryExImpl;
 import org.apache.log4j.SimpleLayout;
 import org.apache.log4j.spi.LoggerRepository;
 
+import static be.dn.logs.logtool.base.regex.constants.TemporalFormatsConstants.YYYY_MM_DD_HH_MM_SS_SSS_24H;
 import static be.dn.logs.logtool.exec.apache.constants.ApacheKeywordsConstants.EVENT_LOG_KEYWORD;
 import static be.dn.logs.logtool.exec.main.constants.TestFilesConstants.TEST_FILE_URL_02;
-import static be.dn.logs.logtool.regex.constants.TemporalFormatsConstants.YYYY_MM_DD_HH_MM_SS_SSS_24H;
 
 @Slf4j
 @UtilityClass
